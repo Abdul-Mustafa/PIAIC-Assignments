@@ -7,7 +7,7 @@ weight = float(input("Enter your weight in kilograms: "))
 
 bmi = weight / (height ** 2)
 
-print(f"Your BMI is: {bmi:.2f}")
+print(f"Your BMI is: {bmi}")
 
 
 ########################################################################################
@@ -19,7 +19,7 @@ height = int(input("Enter the height of the cylinder in meters: "))
 # Volume formula: V = π * r^2 * h
 volume = 22/7* (radius ** 2) * height
 
-print(f"The volume of the cylinder is: {volume:.2f} cubic meters")
+print(f"The volume of the cylinder is: {volume} cubic meters")
 
 ##################################Assignment After The Class###############################
 #3 Age Calculation
